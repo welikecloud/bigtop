@@ -151,7 +151,7 @@ bigtop {
                 site = "${apache.APACHE_MIRROR}/${download_path}"
                 archive = "${apache.APACHE_ARCHIVE}/${download_path}" }
       git     { repo= "https://github.com/apache/hadoop.git"
-                ref = "branch-2.7"
+                ref = "branch-2.7.4"
                 dir = "${name}-${version.base}-src" }
     }
     'ignite-hadoop' {
